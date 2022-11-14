@@ -8,6 +8,8 @@ class LoginPage extends StatelessWidget {
   TextEditingController _emailcontroller = TextEditingController();
   TextEditingController _passcontroller = TextEditingController();
 
+  LoginPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
